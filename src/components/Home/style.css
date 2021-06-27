@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.card {
+  margin: 0px;
+  padding: 2px;
+}
+.card h4 {
+  margin: 3px;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card p {
+  margin: 3px;
+  color: #9ca3af;
+}
+
+.card h5 {
+  margin: 8px;
+}
+.card img {
+  height: 19rem;
+}
